@@ -2,7 +2,7 @@
 
 #### 注意的知识点
 
-1. 组件里有默认参数而且需要根据入参的变化而变化时使用函数 ()=>{} 传参：
+- 组件里有默认参数而且需要根据入参的变化而变化时使用函数 ()=>{} 传参：
 
 ```
 
@@ -16,13 +16,13 @@ function App(props) {
 
 ```
 
-2. setState 可以接一个函数，参数为上一次的 state
+- setState 可以接一个函数，参数为上一次的 state
 
 ```
 setState(lastCount=>lastCount-1)
 ```
 
-3. useMemo(() => fn) 等价于 useCallback(fn)
+- useMemo(() => fn) 等价于 useCallback(fn)
 
 ```
 区别在于，useMemo用来储存变量，useCallback用来储存函数句柄
@@ -35,7 +35,7 @@ const onClick = useCallback(() => {
 }, []);
 ```
 
-4. useRef 的两种使用场景
+- useRef 的两种使用场景
    (1)存储变量或者函数
    (2)相当于 class component 里的 createRef // 不举例子
 
@@ -64,7 +64,7 @@ function useCount(defaultCount) {
 }
 ```
 
-5. 函数作为参数传递时加 useCallback
+- 函数作为参数传递时加 useCallback
 
 ```
 // 因为hooks中最大的一个坑就是，每次render整个函数都会重新加载，定义函数即使不发生变化，但是句柄将被视为新的句柄， 所以就用到了useMeno， useCallback储存变量与函数
@@ -90,7 +90,7 @@ function useSize(){
 
 ```
 
-6. function component 有了 hooks 的支持后有了类的功能
+- function component 有了 hooks 的支持后有了类的功能
 
 - 实现生命周期
 
