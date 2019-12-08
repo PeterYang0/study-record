@@ -19,4 +19,5 @@
 
 ## Java
 * java基础学习
-  * [java基础学习01](java/study01.md)
+  * [java基础学习-day01](java/study01.md)
+  * [java基础学习-day02](java/study02.md)
