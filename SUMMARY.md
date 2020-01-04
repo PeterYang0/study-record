@@ -17,6 +17,9 @@
 * [vue基础](vue/vue.md)
 * [vuex基础](vue/vuex.md)
 
+## VUE3.0
+* [vue3.0对比](vue3.0/study01.md)
+
 ## Java
 * java基础学习
   * [java基础学习-day01](java/study01.md)
