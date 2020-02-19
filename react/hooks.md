@@ -161,11 +161,47 @@ const App: React.FC = () => {
 export default App;
 
 ```
-- 驼某人发现，当路由过多时懒加载会时热编译变慢
 - 这是在路由中使用懒加载的一个小案例，当然lazy+Suspense的懒加载组合也可以使用在父组件组合子组件的情况下使用，对此就不必做过多介绍，需要的大佬可以前往官网观看组件懒加载的案例与概念
 
+#### useReducer与useContext的结合使用
+创建一个store
+```
+import React, { createContext, useReducer } from 'react';
+import reducer from '@/models/reducer';
 
-#### hooks踩坑
+// 创建 context
+export const Context = createContext({});
+
+/**
+ * 创建一个 ContextProvider 组件
+ */
+export const ContextProvider = props => {
+  const initData = {};
+  const [data, dispatch] = useReducer(reducer, initData);
+  return <Context.Provider value={{ data, dispatch }}>{props.children}</Context.Provider>;
+};
+```
+通过context传给App
+```
+<ContextProvider>
+  <App />
+</ContextProvider>
+```
+App里面任何组件都可以取到context,实现一个简易的全局store
+```
+import { useContext } from 'react';
+import { Context } from 'components/GlobalContext';
+
+/**
+ * 获取context
+ */
+export function getContext() {
+  const { data, dispatch } = useContext(Context);
+  return { data, dispatch };
+}
+```
+
+#### hooks
 
 - 关于定时器1
 直接当作常量定义timer在function中，每次render句柄会改变，定时将无法移除，解决办法，可以将定时器防止function外层定义或者使用useRef
