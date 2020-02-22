@@ -26,7 +26,7 @@
   * [React native样式属性](rn/rn-style.md)
   * [react-navigation](rn/react-navigation.md)
   * [react-navigation 5.x](rn/navigation5.x.md)
-  * [react-native之 AsyncStorage](rn/study05.md)
+  * [react-native之 AsyncStorage](rn/AsyncStorage.md)
 
 ## 笔记
 * [可选链与双冒号](ex/可选链.md)
