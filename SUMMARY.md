@@ -25,6 +25,7 @@
   * [React native笔记01](rn/rn01.md)
   * [React native样式属性](rn/rn-style.md)
   * [react-navigation](rn/react-navigation.md)
+  * [react-native-vector-icons](rn/react-native-vector-icons.md)
   * [react-navigation 5.x](rn/navigation5.x.md)
   * [react-native之AsyncStorage](rn/AsyncStorage.md)
   * [react-native之FlatList](rn/flatList.md)
