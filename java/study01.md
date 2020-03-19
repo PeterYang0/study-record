@@ -36,3 +36,18 @@ public class demo01 {
       - boolean   2个字节
     - 字符
       - char      1个字节
+
+6. 泛型只能是引用类型，不能是基本类型
+基本类型： 
+byte     -> Byte
+short    -> Short
+int      -> Integer
+long     -> Long
+float    -> Float
+double   -> Double
+char     -> Character
+boolean  -> Boolean
+
+7. 定义一个字符串是常量，不可改变
+
+8. (int) num 强转数字 去掉小数
