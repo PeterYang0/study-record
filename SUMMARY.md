@@ -9,9 +9,9 @@
 ---
 ## react
 * [hooks学习笔记](react/hooks.md)
-* [redux学习笔记](react/redux.md)
-  * [redux-thunk](react/redux-thunk.md)
-  * [redux-saga](react/redux-saga.md)
+* [react的状态管理-mobx](react/mobx.md)
+  <!-- * [redux-thunk](react/redux-thunk.md)
+  * [redux-saga](react/redux-saga.md) -->
 
 ## vue
 * [vue基础](vue/vue.md)
