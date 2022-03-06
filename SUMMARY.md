@@ -35,7 +35,7 @@
 * [typeScript基础笔记01](typeScript/study01.md)
 
 ## babel插件开发
-*[react中使用类似vue指令的babel插件](babel/简介.md)
+* [react中使用类似vue指令的babel插件](babel/简介.md)
 
 ## 每日一题
 * webpack 
