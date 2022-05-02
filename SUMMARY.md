@@ -10,8 +10,6 @@
 ## react
 * [hooks学习笔记](react/hooks.md)
 * [react的状态管理-mobx](react/mobx.md)
-  <!-- * [redux-thunk](react/redux-thunk.md)
-  * [redux-saga](react/redux-saga.md) -->
 
 ## vue
 * [vue基础](vue/vue.md)
@@ -39,10 +37,12 @@
 
 ## 每日一题
 * webpack 
-  * [Loader和Plugin的区别是什么？](questions/1.md)
-  * [常见的plugin以及作用](questions/2.md)
+  * [Loader和Plugin的区别是什么？](questions/Loader和Plugin的区别是什么.md)
+  * [常见的plugin以及作用](questions/常见的plugin以及作用.md)
 
-## 笔记
+## ～～～
 * [可选链与双冒号](ex/可选链.md)
 * [git笔记](ex/git笔记.md)
 * [Es6/7/8](ex/es6.md)
+* [数组扁平化](ex/数组扁平化.md)
+
