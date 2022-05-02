@@ -30,7 +30,9 @@
   * [code-push](react-native/code-push.md)
 
 ## typeScript
-* [typeScript基础笔记01](typeScript/study01.md)
+* [typeScript基础笔记01](typeScript/ts.md)
+* [typeScript基础笔记01](typeScript/TS泛型＜T＞.md)
+* [typeScript基础笔记01](typeScript/TypeScript里的工具类型Partial.md)
 
 ## babel插件开发
 * [react中使用类似vue指令的babel插件](babel/简介.md)
